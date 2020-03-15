@@ -1,0 +1,3 @@
+select count(*) from odev.commentsmarcth2018
+select city, count(city) from odev.commentsmarcth2018 group by city
+select * from odev.commentsmarcth2018 where yorumOlumlu == 1

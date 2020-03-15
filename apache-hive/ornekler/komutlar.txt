@@ -1,0 +1,15 @@
+Select * from movie.movies
+
+Select title from movie.movies
+
+Select title,genres from movie.movies where genres='Comedy'
+
+Select title,genres from movie.movies where genres LIKE '%Comedy%'
+
+Select count(title) from movie.movies where genres LIKE '%Comedy%'
+
+Select title,genres from movie.movies where title LIKE '%1996%'
+
+Select title,genres from movie.movies where title LIKE '%1996%' AND genres LIKE '%Comedy%'
+
+Select count(title) from movie.movies where title LIKE '%1996%' AND genres LIKE '%Comedy%'
