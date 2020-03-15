@@ -1,0 +1,14 @@
+--komutlar
+hdfs dfs -mkdir hdfs_path
+hdfs dfs -copyFromLocal computer_path hdfs_path
+hdfs dfs -copyToLocal hdfs_path computer_path
+hdfs dfs -count hdfs_path
+hdfs dfs -cat hdfs_path
+hdfs dfs -cp hdfs_copy_path hdfs_new_path
+hdfs dfs -rmr hdfs_path
+hdfs dfs -mv hdfs_mv_path hdfs_new_path
+hdfs dfs -ls hdfs_path
+hdfs dfs -chmod access_code hdfs_path
+hdfs dfs -setrep replication_count -R hdfs_path
+
+
